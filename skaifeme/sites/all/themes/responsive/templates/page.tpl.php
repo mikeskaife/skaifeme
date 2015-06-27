@@ -70,7 +70,7 @@
   <header id="head" role="banner">
     <hgroup class="five columns alpha">
        <div id="logo">
-        <?php if ($logo): ?><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/></a><?php endif; ?>
+        <?php if ($logo): ?><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><span style="font-size:50px; color: orange;"><?php print $site_name; ?></span><?php endif; ?>
         <?php if ($site_slogan): ?><div class="site-slogan"><?php print $site_slogan; ?></div><!--site slogan--><?php endif; ?>
        </div>
     </hgroup>
@@ -211,6 +211,6 @@
 <?php endif; ?>
   
 <div id="copyright" class="container">
- <div class="credit"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?> <br/> <?php print t('Developed by'); ?> <a href="http://www.devsaran.com" target="_blank">Devsaran</a>.</div>
+ <div class="credit"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?></div>
   <div class="clear"></div>
 </div>
