@@ -125,7 +125,7 @@
      <div class="flexslider">
       <ul class="slides">
         <li>
-          <a href="<?php print url($url1); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'responsive') . '/images/aber.jpg'; ?>"/></a>
+          <a href="<?php print url($url1); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'responsive') . '/images/aberpier.jpg'; ?>"/></a>
           <?php if ($cap1): ?> <div class="flex-caption"> <h3> <?php print $cap1; ?> </h3> </div>  <?php endif; ?>
         </li>
         <li>
