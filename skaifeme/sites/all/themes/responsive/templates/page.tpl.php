@@ -70,7 +70,7 @@
   <header id="head" role="banner">
     <hgroup class="five columns alpha">
        <div id="logo">
-        <?php if ($logo): ?><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><span style="font-size:50px; color: orange;"><?php print $site_name; ?></span><?php endif; ?>
+        <?php if ($logo): ?><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><span style="font-size:50px; color: #214467;"><?php print $site_name; ?></span><?php endif; ?>
         <?php if ($site_slogan): ?><div class="site-slogan"><?php print $site_slogan; ?></div><!--site slogan--><?php endif; ?>
        </div>
     </hgroup>
