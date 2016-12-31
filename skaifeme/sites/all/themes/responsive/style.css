@@ -190,6 +190,7 @@ a:hover {
 
 p {
   margin: 0 0 0.8em;
+    text-align: justify;
 }
 
 strong {
@@ -532,6 +533,7 @@ ul.social li {
   clear: both;
   display: block;
   margin-bottom: 2px;
+    font-style: italic;
 }
 
 .links {
